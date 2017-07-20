@@ -7,9 +7,8 @@ from time import strftime, sleep
 def gmail_dot_gen(username, number):
     emails = list()
     username_length = len(username)
-    combinations = pow(2, username_length - 1)
     padding = "{0:0" + str(username_length - 1) + "b}"
-    for i in range(0, combinations):
+    for i in range(0, number):
         bin = padding.format(i)
         full_email = ""
 
@@ -19,7 +18,6 @@ def gmail_dot_gen(username, number):
                 full_email += "."
         full_email += (username[j + 1])
         emails.append(full_email + "@gmail.com")
-    emails = emails[0:(number+1)]
     return emails
 
 
