@@ -84,9 +84,7 @@ if __name__ == "__main__":
     no = int(input("How many accounts would you like?: "))
 
     emails = gmail_dot_gen(config['gmailPrefix'], no)
-    emails.append((config['gmailPrefix'])+"@gmail.com")
     accounts = []
-
     for email in emails:
         account = register(email)
         accounts.append(account)
