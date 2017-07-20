@@ -6,6 +6,8 @@ Generates accounts to be used on FootLocker EU
   - BeautifulSoup (bs4)
 
 **Instructions:**
+
+
   0. Install requirements
   1. Edit the config.json using a text editor like atom or sublime
   2. Run the script
