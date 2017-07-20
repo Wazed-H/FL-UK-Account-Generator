@@ -3,7 +3,7 @@ Generates accounts to be used on FootLocker EU
 
 **Requires:**
   - requests
-  - BeautifulSoup (bs4)
+  - BeautifulSoup4 (bs4)
 
 **Instructions:**
 
@@ -11,7 +11,7 @@ Generates accounts to be used on FootLocker EU
   0. Install requirements
   1. Edit the config.json using a text editor like atom or sublime
   2. Run the script
-  3. Check email and click on activation link
+  3. Check email and click on activation link(s)
   4. Enjoy!
 
  **Note**:</br>
