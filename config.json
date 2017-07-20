@@ -1,0 +1,14 @@
+{
+  "gmailPrefix": "",
+  "password": "",
+  "firstName": "",
+  "lastName": "",
+  "street": "",
+  "houseNo": "",
+  "city": "",
+  "postCode": "",
+  "phoneNo": "",
+  "birth-day": "dd",
+  "birth-month": "mm",
+  "birth-year": "yyyy"
+}
