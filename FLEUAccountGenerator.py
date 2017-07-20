@@ -71,7 +71,7 @@ def register(user_email):
 
     r.post(reg_url, data=user)
 
-    print(strftime('[%H:%M:%S]:'), "Account Created")
+    print(strftime('[%H:%M:%S]:'), "Account Created using", user_email)
 
     export = user_email + ":" + config['password']
     return export
