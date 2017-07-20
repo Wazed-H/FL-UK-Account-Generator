@@ -12,5 +12,5 @@ Instructions:
   3. Check email and click on activation link
   4. Enjoy!
 
- Note:
+ Note:\n
  I'm not liable/responsible for anything you do with the script
