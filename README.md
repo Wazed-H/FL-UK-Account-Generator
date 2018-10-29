@@ -18,3 +18,4 @@ Generates accounts to be used on FootLocker EU
   - Password must contain: uppercase letter, lowercase letter, number and a symbol
   - ONLY USE GMAIL PREFIX so "example@gmail.com" would be just "example" in the config
   - I'm not liable/responsible for anything you do with the script
+  - Working as of July 2017
